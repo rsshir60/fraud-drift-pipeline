@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Testing & caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Experiment tracking & storage
+mlflow.db
+mlruns/
+artifacts/models/*.joblib
+artifacts/models/*.npy
+
+# Data files & reports
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+artifacts/drift_reports/*.html
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
